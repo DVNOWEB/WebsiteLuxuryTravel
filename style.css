@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "Poppins", sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smoot;
+  scroll-padding-top: 9rem;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+html::-webkit-scrollbar-track {
+  background: rgb(3, 3, 5);
+}
+html::-webkit-scrollbar-thumb {
+  background: rgb(1, 1, 84);
+}
+
+body {
+  background: rgb(255, 255, 255);
+  overflow-x: hidden;
+}
+
+section {
+  padding: 3rem 9%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 9%;
+}
+.header .navbar li {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: rgb(212, 175, 55);
+  display: inline-block;
+  margin: 0 1rem;
+}
+.header .navbar li a {
+  color: rgb(212, 175, 55);
+  text-decoration: none;
+}
+.header .navbar li a:hover {
+  color: white;
+}
+.header .navbar {
+  display: flex;
+  padding-left: 20px;
+}
+.header .nav-items {
+  padding: 0.2rem;
+}
+.header .logo {
+  padding: 0.2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(212, 175, 55);
+  text-decoration: none;
+}
+.header .logo:hover {
+  color: white;
+}
+
+#menu-btn {
+  font-size: 2.5rem;
+  color: rgb(212, 175, 55);
+  display: none;
+  cursor: pointer;
+}
+
+.nav-item-booking {
+  list-style: none;
+}
+.nav-item-booking a {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-left: 30px;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 2px solid rgb(212, 175, 55);
+  cursor: pointer;
+  color: rgb(212, 175, 55);
+}
+.nav-item-booking a:hover {
+  color: white;
+  border: 2px solid white;
+}
+
+.home {
+  margin: 0 auto;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(/images/p4.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+.home .content {
+  text-align: center;
+}
+.home .content h1 {
+  margin-bottom: 5rem;
+  font-size: 5rem;
+  color: rgb(212, 175, 55);
+}
+.home .content .fa-paper-plane {
+  font-size: 5rem;
+  color: rgb(212, 175, 55);
+}
+.home .content span {
+  font-weight: bold;
+  color: transparent;
+  -webkit-text-stroke: 0.1rem white;
+  font-size: 3vh;
+  display: block;
+}
+.home .content .s1 {
+  font-size: 5vh;
+  color: white;
+}
+.home .content .p1 {
+  max-width: 60rem;
+  margin: 3rem auto;
+  font-size: 2rem;
+  color: whitesmoke;
+  line-height: 1.5;
+}
+
+.btn {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(212, 175, 55);
+  cursor: pointer;
+  color: rgb(212, 175, 55);
+}
+.btn:hover {
+  color: white;
+  border: 2px solid white;
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.8);
+}
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+.footer .box-container .box {
+  padding: 1rem 1rem;
+}
+.footer .box-container .box .logo {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: rgb(212, 175, 55);
+}
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  color: rgb(212, 175, 55);
+  padding: 1rem 0;
+}
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  color: white;
+  padding: 1rem 0;
+  line-height: 2;
+}
+.footer .box-container .box p i {
+  padding-right: 1rem;
+  color: white;
+}
+.footer .box-container .box .share {
+  padding-top: 1rem;
+}
+.footer .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  color: rgb(212, 175, 55);
+  margin-right: 0.5rem;
+}
+.footer .box-container .box .share a:hover {
+  color: white;
+}
+.footer .box-container .box .links {
+  font-size: 1.5rem;
+  color: rgb(212, 175, 55);
+  padding: 1rem 0;
+  display: block;
+}
+.footer .box-container .box .links:hover {
+  color: white;
+}
+.footer .box-container .box .links:hover i {
+  padding-right: 2rem;
+}
+.footer .box-container .box .links:hover i {
+  padding-right: 1rem;
+  color: white;
+}
+.footer .box-container .box form .email {
+  widows: 100%;
+  border: 1px solid rgb(212, 175, 55);
+  background: none;
+  font-size: 2rem;
+  color: rgb(212, 175, 55);
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.copyrights {
+  color: white;
+  background: rgba(17, 17, 17, 0.7);
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 3rem 2rem;
+}
+
+@media (max-width: 1199.98px) {
+  html {
+    font-size: 60%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+}
+@media (max-width: 991.98px) {
+  html {
+    font-size: 55%;
+  }
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1.2rem 0;
+  }
+  section {
+    padding: 3rem 2rem;
+  }
+}
+@media (max-width: 767.98px) {
+  html {
+    font-size: 53%;
+  }
+  #menu-btn {
+    display: inline-block;
+  }
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  .header .navbar.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .header .navbar li {
+    margin: 2rem;
+    font-size: 2rem;
+    display: block;
+  }
+  .header .navbar li:hover {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0 30px;
+  }
+}
+@media (max-width: 575.98px) {
+  html {
+    font-size: 51%;
+  }
+}
+@media (max-width: 450.98px) {
+  html {
+    font-size: 40%;
+  }
+}/*# sourceMappingURL=style.css.map */
