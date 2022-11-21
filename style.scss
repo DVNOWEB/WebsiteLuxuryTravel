@@ -139,9 +139,6 @@ section {
 
 .home {
   margin: 0 auto;
-  // border-radius: 1rem;
-  // background: linear-gradient(rgba(229, 229, 229, 0.1), rgba(229, 229, 229, 0.3) ),
-  //   url(/images/p4.jpeg) no-repeat;
   background: url(/images/p4.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -190,7 +187,6 @@ section {
     }
   }
 }
-
 //// About home img ////
 .home_about{
   background: url(/images/p3.webp) no-repeat;
@@ -201,7 +197,6 @@ section {
   align-items: center;
   justify-content: center;
 }
-
 //// Luxury home img //////
 .home_luxury{
   background: url(/images/p1.jpeg) no-repeat;
@@ -248,6 +243,7 @@ section {
 .btn {
   font-size: 2.5rem;
   font-weight: 500;
+  margin-top: 2rem;
   padding: 0.7rem 1rem;
   border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -260,6 +256,20 @@ section {
     // background-color: rgb(35, 35, 135);
     border: 2px solid white;
   }
+}
+
+//////////////////////// Contact form /////////////////////
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  display: flex;
+  color: $brown;
+  font-weight: 900;
+  opacity: .6;
+  width: 33vw; 
+  padding: 1rem; 
+  border-radius: .6rem; 
+  margin-top: 1.5rem; 
+  margin-bottom: 1.5rem; 
 }
 
 //////////////////////// Footer /////////////////////

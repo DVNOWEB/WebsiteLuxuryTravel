@@ -207,6 +207,7 @@ section {
 .btn {
   font-size: 2.5rem;
   font-weight: 500;
+  margin-top: 2rem;
   padding: 0.7rem 1rem;
   border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -217,6 +218,19 @@ section {
 .btn:hover {
   color: white;
   border: 2px solid white;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  display: flex;
+  color: rgb(55, 20, 1);
+  font-weight: 900;
+  opacity: 0.6;
+  width: 33vw;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .footer {
