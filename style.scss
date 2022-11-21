@@ -191,6 +191,58 @@ section {
   }
 }
 
+//// About home img ////
+.home_about{
+  background: url(/images/p3.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+//// Luxury home img //////
+.home_luxury{
+  background: url(/images/p1.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+//// Gallery home img //////
+.home_gallery{
+  background: url(/images/p5.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+//// Reference home img //////
+.home_reference{
+  background: url(/images/p7.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+//// Contact home img //////
+.home_contact{
+  background: url(/images/p8.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
 /////////////// Buttons /////////////////
 
 .btn {
