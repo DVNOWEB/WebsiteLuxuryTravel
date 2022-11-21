@@ -143,6 +143,7 @@ section {
   font-family: "Bilbo Swash Caps", "Montserrat", "Poppins", sans-serif;
   font-size: 7vw;
   color: white;
+  line-break: 1rem;
 }
 .home .content .p1 {
   max-width: 60rem;
