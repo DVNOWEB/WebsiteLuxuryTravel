@@ -29,7 +29,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background: rgb(255, 255, 255);
+  background: rgb(255, 255, 254);
   overflow-x: hidden;
 }
 
@@ -203,6 +203,7 @@ section {
   align-items: center;
   justify-content: center;
 }
+
 .btn {
   font-size: 2.5rem;
   font-weight: 500;
@@ -233,7 +234,7 @@ input[type=text], select, textarea {
 }
 
 .footer {
-  background: rgb(218, 211, 185);
+  background: white;
 }
 .footer .box-container {
   display: grid;
@@ -279,7 +280,7 @@ input[type=text], select, textarea {
   margin-right: 0.5rem;
 }
 .footer .box-container .box .share a:hover {
-  color: white;
+  color: rgb(212, 175, 55);
 }
 .footer .box-container .box .links {
   font-size: 1.5rem;
@@ -289,14 +290,14 @@ input[type=text], select, textarea {
   display: block;
 }
 .footer .box-container .box .links:hover {
-  color: white;
+  color: rgb(212, 175, 55);
 }
 .footer .box-container .box .links:hover i {
   padding-right: 2rem;
 }
 .footer .box-container .box .links:hover i {
   padding-right: 1rem;
-  color: white;
+  color: rgb(212, 175, 55);
 }
 .footer .box-container .box form .email {
   widows: 100%;
@@ -325,7 +326,7 @@ input[type=text], select, textarea {
 
 .copyrights {
   color: white;
-  background: rgb(55, 20, 1);
+  background: rgba(17, 17, 17, 0.7);
   opacity: 0.7;
   text-align: center;
   font-size: 1.7rem;
