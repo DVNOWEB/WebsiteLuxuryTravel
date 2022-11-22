@@ -136,6 +136,9 @@ p {
   color: rgb(212, 175, 55);
   text-decoration: none;
 }
+.home .content .headerlogo {
+  font-family: "Montserrat", "Poppins", sans-serif;
+}
 .home .content span {
   font-weight: bold;
   color: transparent;
@@ -209,6 +212,23 @@ p {
   min-height: 80vh;
   align-items: center;
   justify-content: center;
+}
+
+.gallery .box-container {
+  -moz-columns: 3 25rem;
+       columns: 3 25rem;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+.gallery .box-container .box-gallery {
+  margin-bottom: 1rem;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+}
+.gallery .box-container .box-gallery img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .home_reference {

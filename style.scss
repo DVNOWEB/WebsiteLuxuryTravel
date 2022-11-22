@@ -12,7 +12,7 @@
   text-decoration: none;
   transition: all 0.2s linear;
 }
-
+$fonts-logo: 'Montserrat', 'Poppins', sans-serif;
 $blue: rgb(1, 1, 84);
 $brown: rgb(55, 20, 1);
 $light: rgb(255, 255, 255);
@@ -166,6 +166,9 @@ p{
       color: $gold-color;
       text-decoration: none;
     }
+    .headerlogo {
+      font-family: $fonts-logo;
+    }
 
     span {
       font-weight: bold;
@@ -248,6 +251,24 @@ p{
   min-height: 80vh;
   align-items: center;
   justify-content: center;
+}
+
+// GALLERY
+.gallery .box-container {
+  columns: 3 25rem;
+  column-gap: 1.5rem;
+  
+
+  .box-gallery {
+      margin-bottom: 1rem;
+      break-inside: avoid;
+
+      img {
+          width: 100%;
+          border-radius: 0.5rem;
+          margin-bottom: 1rem;
+      }
+  }
 }
 //// Reference home img //////
 .home_reference {
@@ -459,6 +480,7 @@ textarea {
   // Footer
 }
 
+// MEDIA
 @media (max-width: 767.98px) {
   html {
     font-size: 53%;
@@ -505,3 +527,6 @@ textarea {
     font-size: 40%;
   }
 }
+
+
+
