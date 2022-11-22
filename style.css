@@ -152,6 +152,14 @@ p {
   color: white;
   line-break: 1rem;
 }
+.home .content #party {
+  font-size: 1.5rem;
+  font-weight: 600;
+  opacity: 0.5;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  width: 33vw;
+}
 .home .content .p1 {
   max-width: 60rem;
   margin: 2rem auto;
@@ -190,11 +198,16 @@ p {
 .main_about h1 {
   padding: 1.5rem 0 0;
   margin-bottom: 3rem;
+<<<<<<< HEAD
   font-size: 4rem;
+=======
+  font-size: 5rem;
+>>>>>>> 284b8650bd5799e27ee01a2c55686a62603908ca
   font-weight: 700;
   color: rgb(212, 175, 55);
   text-decoration: none;
   border-bottom: 3px solid rgb(212, 175, 55);
+<<<<<<< HEAD
 }
 
 .info_image_content {
@@ -252,6 +265,8 @@ p {
   color: transparent;
   -webkit-text-stroke: 0.1rem rgb(55, 20, 1);
   font-size: 6vw;
+=======
+>>>>>>> 284b8650bd5799e27ee01a2c55686a62603908ca
 }
 
 .home_luxury {
