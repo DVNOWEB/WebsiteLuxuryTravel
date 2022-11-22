@@ -56,7 +56,7 @@ section {
   font-weight: 400;
 }
 
-p{
+p {
   color: $brown;
 }
 
@@ -221,17 +221,78 @@ p{
     color: $gold-color;
     font-size: 3vw;
     display: block;
+    border-bottom: 3px solid $gold-color;
   }
 
   h1 {
-    padding: 1.5rem 0;
-    font-size: 5rem;
+    padding: 1.5rem 0 0;
+    margin-bottom: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     color: $gold-color;
     text-decoration: none;
+    border-bottom: 3px solid $gold-color;
   }
-
 }
+
+.info_image_content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+    width: 40vw;
+    h2{
+      font-family: 'Bilbo Swash Caps', 'Montserrat', 'Poppins', sans-serif;
+      font-weight: bold;
+      color: transparent;
+      -webkit-text-stroke: 0.1rem $brown;
+      font-size: 6vw;
+    }
+  }
+  .image{
+    max-width: 40vw;
+    img{
+      max-width: 100%;
+    }
+  }
+}
+.info_image_content_two{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  .image{
+    max-width: 40vw;
+    img{
+      max-width: 100%;
+    }
+  }
+  .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 2rem;
+    width: 40vw;
+    height: 20vh;
+    h2{
+      
+      font-family: 'Bilbo Swash Caps', 'Montserrat', 'Poppins', sans-serif;
+      font-weight: bold;
+      color: transparent;
+      -webkit-text-stroke: 0.1rem $brown;
+      font-size: 6vw;
+    }
+  }
+}
+
+
 //// Luxury home img //////
 .home_luxury {
   background: url(/images/p1.jpeg) no-repeat;
@@ -257,17 +318,16 @@ p{
 .gallery .box-container {
   columns: 3 25rem;
   column-gap: 1.5rem;
-  
 
   .box-gallery {
-      margin-bottom: 1rem;
-      break-inside: avoid;
+    margin-bottom: 1rem;
+    break-inside: avoid;
 
-      img {
-          width: 100%;
-          border-radius: 0.5rem;
-          margin-bottom: 1rem;
-      }
+    img {
+      width: 100%;
+      border-radius: 0.5rem;
+      margin-bottom: 1rem;
+    }
   }
 }
 //// Reference home img //////
@@ -431,13 +491,15 @@ textarea {
   }
 }
 .copyrights {
-  color: white;
   background: $black-bg;
   opacity: 0.7;
   text-align: center;
   font-size: 1.7rem;
   font-weight: 500;
   padding: 3rem 2rem;
+  p {
+    color: white;
+  }
 }
 /////////////// Media queries ////////////////////
 
@@ -527,6 +589,3 @@ textarea {
     font-size: 40%;
   }
 }
-
-
-
