@@ -13,12 +13,12 @@
   transition: all 0.2s linear;
 }
 
-// $blue: rgb(1, 1, 84);
-// $brown: rgb(55, 20, 1);
+$blue: rgb(1, 1, 84);
+$brown: rgb(55, 20, 1);
 $light: rgb(255, 255, 255);
 $black: rgb(3, 3, 5);
 $gold-color: rgb(212, 175, 55);
-// $bg-color: rgb(255, 255, 255);
+$bg-color: rgb(255, 255, 255);
 $black-bg: rgba(17, 17, 17, 0.7);
 
 @mixin grid($val) {
@@ -153,6 +153,7 @@ section {
     border-radius: 5rem;
     padding: 3rem 8rem;
     h1 {
+      color: black;
       margin-bottom: 5rem;
       font-size: 7rem;
       color: $gold-color;
@@ -188,7 +189,7 @@ section {
   }
 }
 //// About home img ////
-.home_about{
+.home_about {
   background: url(/images/p3.webp) no-repeat;
   background-size: cover;
   background-position: center;
@@ -198,7 +199,7 @@ section {
   justify-content: center;
 }
 //// Luxury home img //////
-.home_luxury{
+.home_luxury {
   background: url(/images/p1.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -208,7 +209,7 @@ section {
   justify-content: center;
 }
 //// Gallery home img //////
-.home_gallery{
+.home_gallery {
   background: url(/images/p5.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -218,7 +219,7 @@ section {
   justify-content: center;
 }
 //// Reference home img //////
-.home_reference{
+.home_reference {
   background: url(/images/p7.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -228,7 +229,7 @@ section {
   justify-content: center;
 }
 //// Contact home img //////
-.home_contact{
+.home_contact {
   background: url(/images/p8.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -260,23 +261,25 @@ section {
 
 //////////////////////// Contact form /////////////////////
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type='text'],
+select,
+textarea {
   display: flex;
   color: $brown;
   font-weight: 900;
-  opacity: .6;
-  width: 33vw; 
-  padding: 1rem; 
-  border-radius: .6rem; 
-  margin-top: 1.5rem; 
-  margin-bottom: 1.5rem; 
+  opacity: 0.6;
+  width: 33vw;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 //////////////////////// Footer /////////////////////
 
 .footer {
-  // background: rgba(0, 0, 0, 0.8);
-  background: rgb(218, 211, 185);
+  // background: rgba(0, 0, 0, 1);
+  // background: rgb(218, 211, 185);
   .box-container {
     @include grid(25rem);
 

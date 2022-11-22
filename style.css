@@ -124,6 +124,7 @@ section {
   padding: 3rem 8rem;
 }
 .home .content h1 {
+  color: black;
   margin-bottom: 5rem;
   font-size: 7rem;
   color: rgb(212, 175, 55);
@@ -203,6 +204,7 @@ section {
   align-items: center;
   justify-content: center;
 }
+
 .btn {
   font-size: 2.5rem;
   font-weight: 500;
@@ -220,7 +222,9 @@ section {
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   display: flex;
   color: rgb(55, 20, 1);
   font-weight: 900;
@@ -232,9 +236,6 @@ input[type=text], select, textarea {
   margin-bottom: 1.5rem;
 }
 
-.footer {
-  background: rgb(218, 211, 185);
-}
 .footer .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
