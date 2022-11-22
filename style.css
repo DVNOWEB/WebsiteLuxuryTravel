@@ -29,7 +29,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background: rgb(255, 255, 255);
+  background: rgb(255, 255, 254);
   overflow-x: hidden;
 }
 
@@ -236,6 +236,12 @@ textarea {
   margin-bottom: 1.5rem;
 }
 
+<<<<<<< HEAD
+=======
+.footer {
+  background: white;
+}
+>>>>>>> a1e55e88e16cd6af885cfcdec8f341d403022d22
 .footer .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -280,7 +286,7 @@ textarea {
   margin-right: 0.5rem;
 }
 .footer .box-container .box .share a:hover {
-  color: white;
+  color: rgb(212, 175, 55);
 }
 .footer .box-container .box .links {
   font-size: 1.5rem;
@@ -290,14 +296,14 @@ textarea {
   display: block;
 }
 .footer .box-container .box .links:hover {
-  color: white;
+  color: rgb(212, 175, 55);
 }
 .footer .box-container .box .links:hover i {
   padding-right: 2rem;
 }
 .footer .box-container .box .links:hover i {
   padding-right: 1rem;
-  color: white;
+  color: rgb(212, 175, 55);
 }
 .footer .box-container .box form .email {
   widows: 100%;
@@ -326,7 +332,7 @@ textarea {
 
 .copyrights {
   color: white;
-  background: rgb(55, 20, 1);
+  background: rgba(17, 17, 17, 0.7);
   opacity: 0.7;
   text-align: center;
   font-size: 1.7rem;
