@@ -13,7 +13,7 @@
   transition: all 0.2s linear;
 }
 
-$blue: rgb(1, 1, 84);
+// $blue: rgb(1, 1, 84);
 $brown: rgb(55, 20, 1);
 $black: rgb(3, 3, 5);
 $gold-color: rgb(212, 175, 55);
@@ -61,7 +61,6 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
-  // background: $blue;
   background: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: row;
@@ -179,11 +178,11 @@ section {
     }
     .p1 {
       max-width: 60rem;
-      margin: 3rem auto;
+      margin: 2rem auto;
       font-size: 2.2rem;
       font-weight: 700;
       color: whitesmoke;
-      line-height: 1.5;
+      line-height: 1;
     }
   }
 }

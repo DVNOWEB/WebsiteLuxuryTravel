@@ -147,11 +147,11 @@ section {
 }
 .home .content .p1 {
   max-width: 60rem;
-  margin: 3rem auto;
+  margin: 2rem auto;
   font-size: 2.2rem;
   font-weight: 700;
   color: whitesmoke;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 .home_about {
@@ -203,7 +203,6 @@ section {
   align-items: center;
   justify-content: center;
 }
-
 .btn {
   font-size: 2.5rem;
   font-weight: 500;
