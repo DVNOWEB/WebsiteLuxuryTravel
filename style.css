@@ -123,15 +123,12 @@ section {
   border-radius: 5rem;
   padding: 3rem 8rem;
 }
-.home .content h1 {
-  color: black;
-  margin-bottom: 5rem;
-  font-size: 7rem;
-  color: rgb(212, 175, 55);
-}
-.home .content .fa-paper-plane {
+.home .content .logo {
+  padding: 0.2rem;
   font-size: 5rem;
+  font-weight: 700;
   color: rgb(212, 175, 55);
+  text-decoration: none;
 }
 .home .content span {
   font-weight: bold;
@@ -236,12 +233,9 @@ textarea {
   margin-bottom: 1.5rem;
 }
 
-<<<<<<< HEAD
-=======
 .footer {
   background: white;
 }
->>>>>>> a1e55e88e16cd6af885cfcdec8f341d403022d22
 .footer .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));

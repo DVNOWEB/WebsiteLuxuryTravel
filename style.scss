@@ -17,7 +17,7 @@ $blue: rgb(1, 1, 84);
 $brown: rgb(55, 20, 1);
 $light: rgb(255, 255, 255);
 $black: rgb(3, 3, 5);
-$gold-color: rgb(212, 175, 55); 
+$gold-color: rgb(212, 175, 55);
 $bg-color: rgb(255, 255, 254);
 $black-bg: rgba(17, 17, 17, 0.7);
 
@@ -152,15 +152,13 @@ section {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(147, 146, 146, 0.1));
     border-radius: 5rem;
     padding: 3rem 8rem;
-    h1 {
-      color: black;
-      margin-bottom: 5rem;
-      font-size: 7rem;
-      color: $gold-color;
-    }
-    .fa-paper-plane {
+
+    .logo {
+      padding: 0.2rem;
       font-size: 5rem;
+      font-weight: 700;
       color: $gold-color;
+      text-decoration: none;
     }
 
     span {
