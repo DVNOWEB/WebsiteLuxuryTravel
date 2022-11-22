@@ -52,6 +52,12 @@ body {
 // Section
 section {
   padding: 3rem 9%;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+p{
+  color: $brown;
 }
 
 /////////////////// Header ////////////////
@@ -195,6 +201,33 @@ section {
   min-height: 80vh;
   align-items: center;
   justify-content: center;
+}
+
+.main_about {
+  display: flex;
+
+  .main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lll {
+    font-weight: bold;
+    color: $gold-color;
+    font-size: 3vw;
+    display: block;
+  }
+
+  h1 {
+    padding: 1.5rem 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color: $gold-color;
+    text-decoration: none;
+  }
+
 }
 //// Luxury home img //////
 .home_luxury {

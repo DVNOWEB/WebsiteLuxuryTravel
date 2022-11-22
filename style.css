@@ -35,6 +35,12 @@ body {
 
 section {
   padding: 3rem 9%;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+p {
+  color: rgb(55, 20, 1);
 }
 
 .header {
@@ -160,6 +166,29 @@ section {
   min-height: 80vh;
   align-items: center;
   justify-content: center;
+}
+
+.main_about {
+  display: flex;
+}
+.main_about .main_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main_about .lll {
+  font-weight: bold;
+  color: rgb(212, 175, 55);
+  font-size: 3vw;
+  display: block;
+}
+.main_about h1 {
+  padding: 1.5rem 0;
+  font-size: 5rem;
+  font-weight: 700;
+  color: rgb(212, 175, 55);
+  text-decoration: none;
 }
 
 .home_luxury {
