@@ -123,14 +123,12 @@ section {
   border-radius: 5rem;
   padding: 3rem 8rem;
 }
-.home .content h1 {
-  margin-bottom: 5rem;
-  font-size: 7rem;
-  color: rgb(212, 175, 55);
-}
-.home .content .fa-paper-plane {
+.home .content .logo {
+  padding: 0.2rem;
   font-size: 5rem;
+  font-weight: 700;
   color: rgb(212, 175, 55);
+  text-decoration: none;
 }
 .home .content .headerlogo {
   font-family: "Montserrat", "Poppins", sans-serif;
@@ -224,7 +222,9 @@ section {
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   display: flex;
   color: rgb(55, 20, 1);
   font-weight: 900;
