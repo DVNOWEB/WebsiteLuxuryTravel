@@ -132,6 +132,9 @@ section {
   font-size: 5rem;
   color: rgb(212, 175, 55);
 }
+.home .content .headerlogo {
+  font-family: "Montserrat", "Poppins", sans-serif;
+}
 .home .content span {
   font-weight: bold;
   color: transparent;

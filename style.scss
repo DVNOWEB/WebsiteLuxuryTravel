@@ -12,7 +12,7 @@
   text-decoration: none;
   transition: all 0.2s linear;
 }
-
+$fonts-logo: 'Montserrat', 'Poppins', sans-serif;
 $blue: rgb(1, 1, 84);
 $brown: rgb(55, 20, 1);
 $light: rgb(255, 255, 255);
@@ -160,6 +160,9 @@ section {
     .fa-paper-plane {
       font-size: 5rem;
       color: $gold-color;
+    }
+    .headerlogo {
+      font-family: $fonts-logo;
     }
 
     span {
