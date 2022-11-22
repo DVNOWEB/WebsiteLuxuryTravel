@@ -185,6 +185,23 @@ section {
   justify-content: center;
 }
 
+.gallery .box-container {
+  -moz-columns: 3 25rem;
+       columns: 3 25rem;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+.gallery .box-container .box-gallery {
+  margin-bottom: 1rem;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+}
+.gallery .box-container .box-gallery img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
 .home_reference {
   background: url(/images/p7.jpeg) no-repeat;
   background-size: cover;
