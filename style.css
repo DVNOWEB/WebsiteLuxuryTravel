@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:wght@200;300;400;500;600&family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -42,6 +43,7 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -107,7 +109,7 @@ section {
 
 .home {
   margin: 0 auto;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(/images/p4.jpeg) no-repeat;
+  background: url(/images/p4.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -117,10 +119,13 @@ section {
 }
 .home .content {
   text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(147, 146, 146, 0.1));
+  border-radius: 5rem;
+  padding: 3rem 8rem;
 }
 .home .content h1 {
   margin-bottom: 5rem;
-  font-size: 5rem;
+  font-size: 7rem;
   color: rgb(212, 175, 55);
 }
 .home .content .fa-paper-plane {
@@ -131,27 +136,80 @@ section {
   font-weight: bold;
   color: transparent;
   -webkit-text-stroke: 0.1rem white;
-  font-size: 3vh;
+  font-size: 3vw;
   display: block;
 }
 .home .content .s1 {
-  font-size: 5vh;
+  font-family: "Bilbo Swash Caps", "Montserrat", "Poppins", sans-serif;
+  font-size: 7vw;
   color: white;
+  line-break: 1rem;
 }
 .home .content .p1 {
   max-width: 60rem;
-  margin: 3rem auto;
-  font-size: 2rem;
+  margin: 2rem auto;
+  font-size: 2.2rem;
+  font-weight: 700;
   color: whitesmoke;
-  line-height: 1.5;
+  line-height: 1;
 }
 
+.home_about {
+  background: url(/images/p3.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_luxury {
+  background: url(/images/p1.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_gallery {
+  background: url(/images/p5.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_reference {
+  background: url(/images/p7.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_contact {
+  background: url(/images/p8.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
 .btn {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 500;
-  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  padding: 0.7rem 1rem;
   border-radius: 8px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid rgb(212, 175, 55);
   cursor: pointer;
   color: rgb(212, 175, 55);
@@ -161,8 +219,21 @@ section {
   border: 2px solid white;
 }
 
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  display: flex;
+  color: rgb(55, 20, 1);
+  font-weight: 900;
+  opacity: 0.6;
+  width: 33vw;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .footer {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgb(218, 211, 185);
 }
 .footer .box-container {
   display: grid;
@@ -186,13 +257,15 @@ section {
 }
 .footer .box-container .box p {
   font-size: 1.5rem;
-  color: white;
+  font-weight: 600;
+  color: rgb(55, 20, 1);
   padding: 1rem 0;
   line-height: 2;
 }
 .footer .box-container .box p i {
+  font-size: 2.5rem;
   padding-right: 1rem;
-  color: white;
+  color: rgb(55, 20, 1);
 }
 .footer .box-container .box .share {
   padding-top: 1rem;
@@ -201,8 +274,8 @@ section {
   height: 4.5rem;
   width: 4.5rem;
   line-height: 4rem;
-  font-size: 2rem;
-  color: rgb(212, 175, 55);
+  font-size: 3rem;
+  color: rgb(55, 20, 1);
   margin-right: 0.5rem;
 }
 .footer .box-container .box .share a:hover {
@@ -210,7 +283,8 @@ section {
 }
 .footer .box-container .box .links {
   font-size: 1.5rem;
-  color: rgb(212, 175, 55);
+  font-weight: 600;
+  color: rgb(55, 20, 1);
   padding: 1rem 0;
   display: block;
 }
@@ -226,19 +300,36 @@ section {
 }
 .footer .box-container .box form .email {
   widows: 100%;
-  border: 1px solid rgb(212, 175, 55);
+  border: 1px solid rgb(55, 20, 1);
+  border-radius: 1rem;
   background: none;
   font-size: 2rem;
   color: rgb(212, 175, 55);
   margin-bottom: 1rem;
   padding: 0.5rem 1rem;
 }
+.footer .box-container .box .btn-subscribe {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid rgb(212, 175, 55);
+  cursor: pointer;
+  color: rgb(212, 175, 55);
+}
+.footer .box-container .box .btn-subscribe:hover {
+  color: white;
+  border: 2px solid white;
+}
 
 .copyrights {
   color: white;
-  background: rgba(17, 17, 17, 0.7);
+  background: rgb(55, 20, 1);
+  opacity: 0.7;
   text-align: center;
   font-size: 1.7rem;
+  font-weight: 500;
   padding: 3rem 2rem;
 }
 

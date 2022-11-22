@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:wght@200;300;400;500;600&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -12,10 +13,12 @@
   transition: all 0.2s linear;
 }
 
-$blue: rgb(1, 1, 84);
+// $blue: rgb(1, 1, 84);
+// $brown: rgb(55, 20, 1);
+$light: rgb(255, 255, 255);
 $black: rgb(3, 3, 5);
 $gold-color: rgb(212, 175, 55);
-$bg-color: rgb(255, 255, 255);
+// $bg-color: rgb(255, 255, 255);
 $black-bg: rgba(17, 17, 17, 0.7);
 
 @mixin grid($val) {
@@ -59,7 +62,7 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
-  // background: $blue;
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -136,11 +139,7 @@ section {
 
 .home {
   margin: 0 auto;
-  // border-radius: 1rem;
-  // background: linear-gradient($black-bg, $black-bg),
-  //   url(/images/p4.jpeg) no-repeat;
-  background: linear-gradient($black-bg, $black-bg),
-    url(/images/p4.jpeg) no-repeat;
+  background: url(/images/p4.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -150,9 +149,12 @@ section {
 
   .content {
     text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(147, 146, 146, 0.1));
+    border-radius: 5rem;
+    padding: 3rem 8rem;
     h1 {
       margin-bottom: 5rem;
-      font-size: 5rem;
+      font-size: 7rem;
       color: $gold-color;
     }
     .fa-paper-plane {
@@ -164,32 +166,87 @@ section {
       font-weight: bold;
       color: transparent;
       -webkit-text-stroke: 0.1rem white;
-      font-size: 3vh;
+      font-size: 3vw;
       display: block;
     }
 
     .s1 {
-      font-size: 5vh;
+      font-family: 'Bilbo Swash Caps', 'Montserrat', 'Poppins', sans-serif;
+      font-size: 7vw;
       color: white;
+      // line-height: 2.5;
+      line-break: 1rem;
     }
     .p1 {
       max-width: 60rem;
-      margin: 3rem auto;
-      font-size: 2rem;
+      margin: 2rem auto;
+      font-size: 2.2rem;
+      font-weight: 700;
       color: whitesmoke;
-      line-height: 1.5;
+      line-height: 1;
     }
   }
+}
+//// About home img ////
+.home_about{
+  background: url(/images/p3.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+//// Luxury home img //////
+.home_luxury{
+  background: url(/images/p1.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+//// Gallery home img //////
+.home_gallery{
+  background: url(/images/p5.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+//// Reference home img //////
+.home_reference{
+  background: url(/images/p7.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+//// Contact home img //////
+.home_contact{
+  background: url(/images/p8.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
 }
 
 /////////////// Buttons /////////////////
 
 .btn {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 500;
-  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  padding: 0.7rem 1rem;
   border-radius: 8px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid $gold-color;
   cursor: pointer;
   color: $gold-color;
@@ -201,10 +258,25 @@ section {
   }
 }
 
+//////////////////////// Contact form /////////////////////
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  display: flex;
+  color: $brown;
+  font-weight: 900;
+  opacity: .6;
+  width: 33vw; 
+  padding: 1rem; 
+  border-radius: .6rem; 
+  margin-top: 1.5rem; 
+  margin-bottom: 1.5rem; 
+}
+
 //////////////////////// Footer /////////////////////
 
 .footer {
-  background: rgba(0, 0, 0, 0.8);
+  // background: rgba(0, 0, 0, 0.8);
+  background: rgb(218, 211, 185);
   .box-container {
     @include grid(25rem);
 
@@ -226,13 +298,15 @@ section {
       }
       p {
         font-size: 1.5rem;
-        color: white;
+        font-weight: 600;
+        color: $brown;
         padding: 1rem 0;
         line-height: 2;
 
         i {
+          font-size: 2.5rem;
           padding-right: 1rem;
-          color: white;
+          color: $brown;
         }
       }
       .share {
@@ -242,8 +316,8 @@ section {
           height: 4.5rem;
           width: 4.5rem;
           line-height: 4rem;
-          font-size: 2rem;
-          color: $gold-color;
+          font-size: 3rem;
+          color: $brown;
           margin-right: 0.5rem;
 
           &:hover {
@@ -253,7 +327,8 @@ section {
       }
       .links {
         font-size: 1.5rem;
-        color: $gold-color;
+        font-weight: 600;
+        color: $brown;
         padding: 1rem 0;
         display: block;
 
@@ -270,29 +345,45 @@ section {
           }
         }
       }
+
       form .email {
         widows: 100%;
-        border: 1px solid $gold-color;
-        // border-radius: 2rem;
+        border: 1px solid $brown;
+        border-radius: 1rem;
         background: none;
         font-size: 2rem;
         color: $gold-color;
         margin-bottom: 1rem;
         padding: 0.5rem 1rem;
+      }
+      .btn-subscribe {
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: 2px solid $gold-color;
+        cursor: pointer;
+        color: $gold-color;
 
+        &:hover {
+          color: white;
+          // background-color: rgb(35, 35, 135);
+          border: 2px solid white;
+        }
       }
     }
   }
 }
-.copyrights{
+.copyrights {
   color: white;
-  background: $black-bg;
+  background: $brown;
+  opacity: 0.7;
   text-align: center;
   font-size: 1.7rem;
+  font-weight: 500;
   padding: 3rem 2rem;
 }
-
-
 
 /////////////// Media queries ////////////////////
 
