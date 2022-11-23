@@ -14,3 +14,14 @@ document.querySelectorAll('.about .video-container .controls .control-btn').forE
   }
 })
 
+// OWL CAROUSEL AUTOPLAY
+let owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:8, 
+  
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true
+});

@@ -538,12 +538,35 @@ textarea {
   color: white;
 }
 
-@media (max-width: 1371.98px) {
-  .destination .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-    gap: 1.5rem;
-  }
+
+.owl-item {
+  width: 10vw;
+  margin-right: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  display: none !important;
+}
+
+.owl-stage-outer .owl-stage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transform: translate3d(0px, 0px, 0px);
+  transition: all 0.25s ease 0s;
+  width: 100%;
+}
+.owl-stage-outer .owl-stage .item {
+  display: flex;
+  justify-content: center;
+  flex-direction: space-around;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1199.98px) {
+
   html {
     font-size: 60%;
   }
