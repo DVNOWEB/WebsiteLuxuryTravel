@@ -68,7 +68,7 @@ p {
   align-items: center;
   padding: 1.5rem 9%;
 
-  &:hover{
+  &:hover {
     background: rgba(0, 0, 0, 0.9);
   }
 
@@ -331,11 +331,41 @@ section {
       padding: 2rem;
       text-align: center;
 
-      h3{
+      h3 {
         font-size: 2rem;
         color: $brown;
       }
     }
+  }
+}
+
+//// About Info and Image ////
+.about-us {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+
+  .about-us-img {
+    max-width: 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .about-us-img img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  .about-us-text {
+    max-width: 736px;
+    text-align: center;
+    float: right;
+  }
+
+  .about-us-text p {
+    font-size: 2rem;
+    line-height: 1.5;
   }
 }
 
@@ -572,7 +602,6 @@ textarea {
   .header {
     padding: 1.5rem 2rem;
   }
-
 }
 
 @media (max-width: 991.98px) {
