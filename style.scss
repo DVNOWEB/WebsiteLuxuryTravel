@@ -49,13 +49,6 @@ body {
   overflow-x: hidden;
 }
 
-// Section
-section {
-  padding: 3rem 9%;
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-
 p {
   color: $brown;
 }
@@ -74,6 +67,10 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 9%;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.9);
+  }
 
   .navbar li {
     font-size: 1.7rem;
@@ -182,11 +179,10 @@ p {
       font-family: 'Bilbo Swash Caps', 'Montserrat', 'Poppins', sans-serif;
       font-size: 7vw;
       color: white;
-      // line-height: 2.5;
       line-break: 1rem;
     }
 
-    #party{
+    #party {
       font-size: 1.5rem;
       font-weight: 600;
       opacity: 0.5;
@@ -205,6 +201,174 @@ p {
     }
   }
 }
+
+/////// Video Home page ////////
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 5rem;
+
+  .video-container {
+    flex: 1 1 42rem;
+
+    video {
+      border-radius: 1rem;
+      width: 100%;
+    }
+
+    .controls {
+      text-align: center;
+      padding: 2rem 0;
+
+      span {
+        display: inline-block;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 50%;
+        background: $gold-color;
+        cursor: pointer;
+        margin: 0.7rem;
+
+        &:hover {
+          background: $blue;
+        }
+      }
+    }
+  }
+
+  .content {
+    flex: 1 1 42rem;
+    margin-bottom: 5rem;
+
+    span {
+      color: $gold-color;
+      font-size: 2rem;
+    }
+    h1 {
+      color: $brown;
+      font-size: 4rem;
+      margin-top: 0.5rem;
+    }
+    p {
+      padding: 1rem 0;
+      margin-bottom: 1.5rem;
+      color: $brown;
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    span {
+      color: $gold-color;
+      font-size: 2rem;
+    }
+    a.btn {
+      font-size: 1.5rem;
+      font-weight: 500;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      background-color: rgba(0, 0, 0, 0.1);
+      border: 2px solid $gold-color;
+      cursor: pointer;
+      color: $gold-color;
+
+      &:hover {
+        color: $brown;
+        border: 2px solid white;
+      }
+    }
+  }
+}
+
+///// Sections /////
+section {
+  padding: 3rem 9%;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+////// Destinations //////
+.heading {
+  text-align: center;
+  margin-bottom: 2rem;
+
+  span {
+    color: $gold-color;
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+    color: $brown;
+  }
+}
+
+.destination .box-container {
+  @include grid(27rem);
+
+  .box {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 5px 9px 8px #dddcdc;
+
+    &:hover img {
+      transform: scale(1.1);
+    }
+
+    .image {
+      height: 20rem;
+      overflow: hidden;
+      width: 100%;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .content {
+      padding: 2rem;
+      text-align: center;
+
+      h3 {
+        font-size: 2rem;
+        color: $brown;
+      }
+    }
+  }
+}
+
+//// About Info and Image ////
+.about-us {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+
+  .about-us-img {
+    max-width: 50%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .about-us-img img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  .about-us-text {
+    max-width: 736px;
+    text-align: center;
+    float: right;
+  }
+
+  .about-us-text p {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+}
+
 //// About home img ////
 .home_about {
   background: url(/images/p3.webp) no-repeat;
@@ -216,94 +380,8 @@ p {
   justify-content: center;
 }
 
-.main_about {
-  display: flex;
-
-  .main_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .lll {
-    font-weight: bold;
-    color: $gold-color;
-    font-size: 3vw;
-    display: block;
-    border-bottom: 3px solid $gold-color;
-  }
-
-  h1 {
-    padding: 1.5rem 0 0;
-    margin-bottom: 3rem;
-    font-size: 5rem;
-    font-weight: 700;
-    color: $gold-color;
-    text-decoration: none;
-    border-bottom: 3px solid $gold-color;
-  }
-}
-
-.info_image_content{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  .info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-right: 2rem;
-    width: 40vw;
-    h2{
-      font-family: 'Bilbo Swash Caps', 'Montserrat', 'Poppins', sans-serif;
-      font-weight: bold;
-      color: transparent;
-      -webkit-text-stroke: 0.1rem $brown;
-      font-size: 6vw;
-    }
-  }
-  .image{
-    max-width: 40vw;
-    img{
-      max-width: 100%;
-    }
-  }
-}
-.info_image_content_two{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  .image{
-    max-width: 40vw;
-    img{
-      max-width: 100%;
-    }
-  }
-  .info{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    padding-left: 2rem;
-    width: 40vw;
-    height: 20vh;
-    h2{
-      
-      font-family: 'Bilbo Swash Caps', 'Montserrat', 'Poppins', sans-serif;
-      font-weight: bold;
-      color: transparent;
-      -webkit-text-stroke: 0.1rem $brown;
-      font-size: 6vw;
-    }
-  }
-}
-
-
 //// Luxury home img //////
+
 .home_luxury {
   background: url(/images/p1.jpeg) no-repeat;
   background-size: cover;
@@ -325,6 +403,7 @@ p {
 }
 
 // GALLERY
+
 .gallery .box-container {
   columns: 3 25rem;
   column-gap: 1.5rem;
@@ -340,7 +419,9 @@ p {
     }
   }
 }
+
 //// Reference home img //////
+
 .home_reference {
   background: url(/images/p7.jpeg) no-repeat;
   background-size: cover;
@@ -350,6 +431,7 @@ p {
   align-items: center;
   justify-content: center;
 }
+
 //// Contact home img //////
 .home_contact {
   background: url(/images/p8.jpeg) no-repeat;
@@ -504,11 +586,11 @@ textarea {
   background: $black-bg;
   opacity: 0.7;
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   font-weight: 500;
-  padding: 3rem 2rem;
-  p{
-    color:white;
+  padding: 1rem 2rem;
+  p {
+    color: white;
   }
 }
 /////////////// Media queries ////////////////////
@@ -520,13 +602,6 @@ textarea {
   .header {
     padding: 1.5rem 2rem;
   }
-
-  // Footer
-  // .footer {
-  //   html {
-  //     font-size: 40%;
-  //   }
-  // }
 }
 
 @media (max-width: 991.98px) {
@@ -588,7 +663,6 @@ textarea {
   }
 }
 
-
 @media (max-width: 575.98px) {
   html {
     font-size: 51%;
@@ -598,5 +672,9 @@ textarea {
 @media (max-width: 450.98px) {
   html {
     font-size: 40%;
+  }
+
+  .about .content h3 {
+    font-size: 3.5rem;
   }
 }
