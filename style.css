@@ -204,7 +204,6 @@ p {
   color: rgb(212, 175, 55);
   font-size: 2rem;
 }
-
 .about .content h1 {
   color: rgb(55, 20, 1);
   font-size: 4rem;
@@ -224,8 +223,7 @@ p {
   border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.1);
   border: 2px solid rgb(212, 175, 55);
-  cursor: pointer;Mikael Krefors
-2 people in the huddle
+  cursor: pointer;
   color: rgb(212, 175, 55);
 }
 .about .content a.btn:hover {
@@ -346,7 +344,6 @@ section {
   display: flex;
   min-height: 80vh;
   align-items: center;
-
   justify-content: center;
 }
 

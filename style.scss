@@ -284,7 +284,7 @@ section {
   font-weight: 400;
 }
 
-.border{
+.border {
   margin: 0 30vw 3rem;
   border-bottom: 2px solid $gold-color;
 }
@@ -299,12 +299,11 @@ section {
     font-size: 2rem;
   }
 
-
   h2 {
     font-size: 4rem;
     color: $brown;
+  }
 }
-
 .destination .box-container {
   @include grid(27rem);
 
@@ -623,7 +622,7 @@ textarea {
 
 @media (max-width: 1371.98px) {
   .destination .box-container {
-  @include grid(27rem);
+    @include grid(27rem);
   }
   html {
     font-size: 60%;
@@ -631,11 +630,10 @@ textarea {
   .header {
     padding: 1.5rem 2rem;
   }
-
 }
 @media (max-width: 1318.98px) {
   .destination .box-container {
-  @include grid(25rem);
+    @include grid(25rem);
   }
   html {
     font-size: 60%;
@@ -643,11 +641,10 @@ textarea {
   .header {
     padding: 1.5rem 2rem;
   }
-
 }
 @media (max-width: 1224.98px) {
   .destination .box-container {
-  @include grid(24rem);
+    @include grid(24rem);
   }
   html {
     font-size: 60%;
@@ -655,11 +652,10 @@ textarea {
   .header {
     padding: 1.5rem 2rem;
   }
-
 }
 @media (max-width: 1178.98px) {
   .destination .box-container {
-  @include grid(24rem);
+    @include grid(24rem);
   }
   html {
     font-size: 60%;
@@ -667,7 +663,6 @@ textarea {
   .header {
     padding: 1.5rem 2rem;
   }
-
 }
 
 @media (max-width: 992.98px) {
@@ -696,7 +691,7 @@ textarea {
 // MEDIA
 @media (max-width: 767.98px) {
   .destination .box-container {
-  @include grid(31rem);
+    @include grid(31rem);
   }
   html {
     font-size: 53%;
