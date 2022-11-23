@@ -383,6 +383,9 @@ section {
   border-radius: 0.5rem;
   margin-bottom: 1rem;
 }
+.gallery .box-container .box-gallery img:hover {
+  transform: scale(1.1);
+}
 
 .home_reference {
   background: url(/images/p7.jpeg) no-repeat;
