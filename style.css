@@ -204,7 +204,6 @@ p {
   color: rgb(212, 175, 55);
   font-size: 2rem;
 }
-
 .about .content h1 {
   color: rgb(55, 20, 1);
   font-size: 4rem;
@@ -228,8 +227,7 @@ p {
   border-radius: 8px;
   background-color: rgba(0, 0, 0, 0.1);
   border: 2px solid rgb(212, 175, 55);
-  cursor: pointer;Mikael Krefors
-2 people in the huddle
+  cursor: pointer;
   color: rgb(212, 175, 55);
 }
 .about .content a.btn:hover {
@@ -321,7 +319,6 @@ section {
   display: flex;
   min-height: 80vh;
   align-items: center;
-
   justify-content: center;
 }
 
@@ -514,6 +511,32 @@ textarea {
 }
 .copyrights p {
   color: white;
+}
+
+.owl-item {
+  width: 10vw;
+  margin-right: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot {
+  display: none !important;
+}
+
+.owl-stage-outer .owl-stage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transform: translate3d(0px, 0px, 0px);
+  transition: all 0.25s ease 0s;
+  width: 100%;
+}
+.owl-stage-outer .owl-stage .item {
+  display: flex;
+  justify-content: center;
+  flex-direction: space-around;
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 1199.98px) {

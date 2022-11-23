@@ -301,7 +301,9 @@ section {
   h2 {
     font-size: 4rem;
     color: $brown;
+  }
 }
+
 
 .destination .box-container {
   @include grid(27rem);
@@ -594,6 +596,44 @@ textarea {
     color: white;
   }
 }
+
+// OWL CAROUSEL AUTOPLAY
+.owl-item {
+  width: 10vw; 
+  margin-right: 0px; 
+}
+
+// Code to hide the dots
+.owl-theme .owl-dots .owl-dot{ 
+  display:none!important;
+}
+
+.owl-stage-outer{
+  .owl-stage {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate3d(0px, 0px, 0px); 
+    transition: all 0.25s ease 0s; 
+    width: 100%;
+    .item {
+      display:flex;
+      justify-content: center;
+      flex-direction: space-around;
+      width: 100%;
+      height: auto;
+
+    }
+  }
+}
+// .owl {
+//   display:flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+
 /////////////// Media queries ////////////////////
 
 @media (max-width: 1199.98px) {
