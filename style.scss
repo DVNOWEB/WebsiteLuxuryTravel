@@ -171,15 +171,15 @@ p {
       font-weight: bold;
       color: transparent;
       -webkit-text-stroke: 0.1rem white;
-      font-size: 3vw;
+      font-size: 2.2vw;
       display: block;
     }
 
     .s1 {
       font-family: 'Bilbo Swash Caps', 'Montserrat', 'Poppins', sans-serif;
-      font-size: 7vw;
+      font-size: 6vw;
       color: white;
-      line-break: 1rem;
+      line-break: 3rem;
     }
 
     #party {
@@ -194,7 +194,7 @@ p {
     .p1 {
       max-width: 60rem;
       margin: 2rem auto;
-      font-size: 2.2rem;
+      font-size: 2rem;
       font-weight: 700;
       color: whitesmoke;
       line-height: 1;
@@ -416,7 +416,9 @@ section {
   align-items: center;
   justify-content: center;
 }
+
 //// Gallery home img //////
+
 .home_gallery {
   background: url(/images/p5.jpeg) no-repeat;
   background-size: cover;
@@ -663,46 +665,53 @@ textarea {
 
 @media (max-width: 1371.98px) {
   .destination .box-container {
+    @include grid(24rem);
+  }
+  html {
+    font-size: 60%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  .home {
+    min-height: 80vh;
+  }
+  .about {
+    .content {
+      h3 {
+        font-size: 3.5rem;
+      }
+
+      p {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 1177.98px) {
+  .destination .box-container {
     @include grid(27rem);
   }
   html {
-    font-size: 60%;
+    font-size: 55%;
   }
   .header {
     padding: 1.5rem 2rem;
   }
-}
-@media (max-width: 1318.98px) {
-  .destination .box-container {
-    @include grid(25rem);
+  .home {
+    min-height: 75vh;
   }
-  html {
-    font-size: 60%;
-  }
-  .header {
-    padding: 1.5rem 2rem;
-  }
-}
-@media (max-width: 1224.98px) {
-  .destination .box-container {
-    @include grid(24rem);
-  }
-  html {
-    font-size: 60%;
-  }
-  .header {
-    padding: 1.5rem 2rem;
-  }
-}
-@media (max-width: 1178.98px) {
-  .destination .box-container {
-    @include grid(24rem);
-  }
-  html {
-    font-size: 60%;
-  }
-  .header {
-    padding: 1.5rem 2rem;
+  .about {
+    .content {
+      h3 {
+        font-size: 3.5rem;
+      }
+
+      p {
+        font-size: 1.8rem;
+      }
+    }
   }
 }
 
@@ -726,7 +735,20 @@ textarea {
     padding: 3rem 2rem;
   }
 
-  // Footer
+  .home {
+    min-height: 70vh;
+  }
+  .about {
+    .content {
+      h3 {
+        font-size: 3.5rem;
+      }
+
+      p {
+        font-size: 1.7rem;
+      }
+    }
+  }
 }
 
 // MEDIA
@@ -766,19 +788,85 @@ textarea {
       }
     }
   }
+
+  .home {
+    min-height: 70vh;
+  }
+  .about {
+    .content {
+      h3 {
+        font-size: 3.5rem;
+      }
+
+      p {
+        font-size: 1.7rem;
+      }
+    }
+  }
 }
 
 @media (max-width: 575.98px) {
   html {
     font-size: 51%;
   }
+  .home {
+    min-height: 60vh;
+  }
+  .about {
+    .content {
+      h3 {
+        font-size: 3.5rem;
+      }
+
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
 }
 
 @media (max-width: 450.98px) {
+  .destination .box-container {
+    @include grid(33rem);
+  }
   html {
     font-size: 40%;
   }
-  .about .content h3 {
-    font-size: 3.5rem;
+  .home {
+    min-height: 50vh;
+  }
+  .about {
+    .content {
+      h3 {
+        font-size: 3.5rem;
+      }
+
+      p {
+        font-size: 2.3rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 310.98px) {
+  .destination .box-container {
+    @include grid(33rem);
+  }
+  html {
+    font-size: 37%;
+  }
+  .home {
+    min-height: 50vh;
+  }
+  .about {
+    .content {
+      h3 {
+        font-size: 3.5rem;
+      }
+
+      p {
+        font-size: 2.3rem;
+      }
+    }
   }
 }

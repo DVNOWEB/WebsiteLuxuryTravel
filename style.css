@@ -140,14 +140,14 @@ p {
   font-weight: bold;
   color: transparent;
   -webkit-text-stroke: 0.1rem white;
-  font-size: 3vw;
+  font-size: 2.2vw;
   display: block;
 }
 .home .content .s1 {
   font-family: "Bilbo Swash Caps", "Montserrat", "Poppins", sans-serif;
-  font-size: 7vw;
+  font-size: 6vw;
   color: white;
-  line-break: 1rem;
+  line-break: 3rem;
 }
 .home .content #party {
   font-size: 1.5rem;
@@ -160,7 +160,7 @@ p {
 .home .content .p1 {
   max-width: 60rem;
   margin: 2rem auto;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 700;
   color: whitesmoke;
   line-height: 1;
@@ -570,53 +570,45 @@ textarea {
 @media (max-width: 1371.98px) {
   .destination .box-container {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    gap: 1.5rem;
+  }
+  html {
+    font-size: 60%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  .home {
+    min-height: 80vh;
+  }
+  .about .content h3 {
+    font-size: 3.5rem;
+  }
+  .about .content p {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 1177.98px) {
+  .destination .box-container {
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
     gap: 1.5rem;
   }
   html {
-    font-size: 60%;
+    font-size: 55%;
   }
   .header {
     padding: 1.5rem 2rem;
   }
-}
-@media (max-width: 1318.98px) {
-  .destination .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 1.5rem;
+  .home {
+    min-height: 75vh;
   }
-  html {
-    font-size: 60%;
+  .about .content h3 {
+    font-size: 3.5rem;
   }
-  .header {
-    padding: 1.5rem 2rem;
-  }
-}
-@media (max-width: 1224.98px) {
-  .destination .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-    gap: 1.5rem;
-  }
-  html {
-    font-size: 60%;
-  }
-  .header {
-    padding: 1.5rem 2rem;
-  }
-}
-@media (max-width: 1178.98px) {
-  .destination .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-    gap: 1.5rem;
-  }
-  html {
-    font-size: 60%;
-  }
-  .header {
-    padding: 1.5rem 2rem;
+  .about .content p {
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 992.98px) {
@@ -633,6 +625,15 @@ textarea {
   }
   section {
     padding: 3rem 2rem;
+  }
+  .home {
+    min-height: 70vh;
+  }
+  .about .content h3 {
+    font-size: 3.5rem;
+  }
+  .about .content p {
+    font-size: 1.7rem;
   }
 }
 @media (max-width: 767.98px) {
@@ -669,17 +670,65 @@ textarea {
     background: rgba(0, 0, 0, 0.4);
     padding: 0 30px;
   }
+  .home {
+    min-height: 70vh;
+  }
+  .about .content h3 {
+    font-size: 3.5rem;
+  }
+  .about .content p {
+    font-size: 1.7rem;
+  }
 }
 @media (max-width: 575.98px) {
   html {
     font-size: 51%;
   }
-}
-@media (max-width: 450.98px) {
-  html {
-    font-size: 40%;
+  .home {
+    min-height: 60vh;
   }
   .about .content h3 {
     font-size: 3.5rem;
+  }
+  .about .content p {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 450.98px) {
+  .destination .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
+    gap: 1.5rem;
+  }
+  html {
+    font-size: 40%;
+  }
+  .home {
+    min-height: 50vh;
+  }
+  .about .content h3 {
+    font-size: 3.5rem;
+  }
+  .about .content p {
+    font-size: 2.3rem;
+  }
+}
+@media (max-width: 310.98px) {
+  .destination .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
+    gap: 1.5rem;
+  }
+  html {
+    font-size: 37%;
+  }
+  .home {
+    min-height: 50vh;
+  }
+  .about .content h3 {
+    font-size: 3.5rem;
+  }
+  .about .content p {
+    font-size: 2.3rem;
   }
 }/*# sourceMappingURL=style.css.map */
