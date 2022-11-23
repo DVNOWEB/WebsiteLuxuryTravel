@@ -216,10 +216,6 @@ p {
   font-size: 1.5rem;
   font-weight: 400;
 }
-.about .content span {
-  color: rgb(212, 175, 55);
-  font-size: 2rem;
-}
 .about .content a.btn {
   font-size: 1.5rem;
   font-weight: 500;
@@ -239,6 +235,11 @@ section {
   padding: 3rem 9%;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+.border {
+  margin: 0 30vw 3rem;
+  border-bottom: 2px solid rgb(212, 175, 55);
 }
 
 .heading {
@@ -287,29 +288,53 @@ section {
   color: rgb(55, 20, 1);
 }
 
-.about-us {
-  height: 90vh;
-  width: 100%;
+.about {
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 5rem;
 }
-.about-us .about-us-img {
-  max-width: 50%;
-  height: 100%;
-  overflow: hidden;
+.about .img-container {
+  flex: 1 1 42rem;
 }
-.about-us .about-us-img img {
-  max-width: 100%;
-  display: block;
-  height: auto;
+.about .img-container .image {
+  border-radius: 1rem;
+  width: 100%;
 }
-.about-us .about-us-text {
-  max-width: 736px;
-  text-align: center;
-  float: right;
+.about .content {
+  flex: 1 1 42rem;
+  margin-bottom: 5rem;
 }
-.about-us .about-us-text p {
+.about .content span {
+  color: rgb(212, 175, 55);
   font-size: 2rem;
-  line-height: 1.5;
+}
+.about .content h2 {
+  color: rgb(55, 20, 1);
+  font-size: 4rem;
+  margin-top: 0.5rem;
+}
+.about .content p {
+  padding: 1rem 0;
+  margin-bottom: 1.5rem;
+  color: rgb(55, 20, 1);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.about .content a.btn {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px solid rgb(212, 175, 55);
+  cursor: pointer;
+  color: rgb(212, 175, 55);
+}
+.about .content a.btn:hover {
+  color: rgb(55, 20, 1);
+  border: 2px solid white;
 }
 
 .home_about {
@@ -513,6 +538,7 @@ textarea {
   color: white;
 }
 
+
 .owl-item {
   width: 10vw;
   margin-right: 0px;
@@ -540,6 +566,7 @@ textarea {
 }
 
 @media (max-width: 1199.98px) {
+
   html {
     font-size: 60%;
   }
@@ -547,7 +574,46 @@ textarea {
     padding: 1.5rem 2rem;
   }
 }
-@media (max-width: 991.98px) {
+@media (max-width: 1318.98px) {
+  .destination .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+  }
+  html {
+    font-size: 60%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+}
+@media (max-width: 1224.98px) {
+  .destination .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    gap: 1.5rem;
+  }
+  html {
+    font-size: 60%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+}
+@media (max-width: 1178.98px) {
+  .destination .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    gap: 1.5rem;
+  }
+  html {
+    font-size: 60%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+}
+@media (max-width: 992.98px) {
   html {
     font-size: 55%;
   }
@@ -564,6 +630,11 @@ textarea {
   }
 }
 @media (max-width: 767.98px) {
+  .destination .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+    gap: 1.5rem;
+  }
   html {
     font-size: 53%;
   }
