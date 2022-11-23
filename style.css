@@ -33,12 +33,6 @@ body {
   overflow-x: hidden;
 }
 
-section {
-  padding: 3rem 9%;
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-
 p {
   color: rgb(55, 20, 1);
 }
@@ -55,6 +49,9 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 9%;
+}
+.header:hover {
+  background: rgba(0, 0, 0, 0.9);
 }
 .header .navbar li {
   font-size: 1.7rem;
@@ -169,6 +166,154 @@ p {
   line-height: 1;
 }
 
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.about .video-container {
+  flex: 1 1 42rem;
+}
+.about .video-container video {
+  border-radius: 1rem;
+  width: 100%;
+}
+.about .video-container .controls {
+  text-align: center;
+  padding: 2rem 0;
+}
+.about .video-container .controls span {
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background: rgb(212, 175, 55);
+  cursor: pointer;
+  margin: 0.7rem;
+}
+.about .video-container .controls span:hover {
+  background: rgb(1, 1, 84);
+}
+.about .content {
+  flex: 1 1 42rem;
+  margin-bottom: 5rem;
+}
+.about .content span {
+  color: rgb(212, 175, 55);
+  font-size: 2rem;
+}
+
+.about .content h1 {
+  color: rgb(55, 20, 1);
+  font-size: 4rem;
+  margin-top: 0.5rem;
+}
+.about .content p {
+  padding: 1rem 0;
+  margin-bottom: 1.5rem;
+  color: rgb(55, 20, 1);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.about .content span {
+  color: rgb(212, 175, 55);
+  font-size: 2rem;
+}
+.about .content a.btn {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px solid rgb(212, 175, 55);
+  cursor: pointer;Mikael Krefors
+2 people in the huddle
+  color: rgb(212, 175, 55);
+}
+.about .content a.btn:hover {
+  color: rgb(55, 20, 1);
+  border: 2px solid white;
+}
+
+section {
+  padding: 3rem 9%;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.heading span {
+  color: rgb(212, 175, 55);
+  font-size: 2rem;
+}
+.heading h2 {
+  font-size: 4rem;
+  color: rgb(55, 20, 1);
+}
+
+.destination .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 1.5rem;
+}
+.destination .box-container .box {
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 5px 9px 8px #dddcdc;
+}
+.destination .box-container .box:hover img {
+  transform: scale(1.1);
+}
+.destination .box-container .box .image {
+  height: 20rem;
+  overflow: hidden;
+  width: 100%;
+}
+.destination .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.destination .box-container .box .content {
+  padding: 2rem;
+  text-align: center;
+}
+.destination .box-container .box .content h3 {
+  font-size: 2rem;
+  color: rgb(55, 20, 1);
+}
+
+.about-us {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+}
+.about-us .about-us-img {
+  max-width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.about-us .about-us-img img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+.about-us .about-us-text {
+  max-width: 736px;
+  text-align: center;
+  float: right;
+}
+.about-us .about-us-text p {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
 .home_about {
   background: url(/images/p3.webp) no-repeat;
   background-size: cover;
@@ -176,90 +321,8 @@ p {
   display: flex;
   min-height: 80vh;
   align-items: center;
-  justify-content: center;
-}
 
-.main_about {
-  display: flex;
-}
-.main_about .main_content {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-}
-.main_about .lll {
-  font-weight: bold;
-  color: rgb(212, 175, 55);
-  font-size: 3vw;
-  display: block;
-  border-bottom: 3px solid rgb(212, 175, 55);
-}
-.main_about h1 {
-  padding: 1.5rem 0 0;
-  margin-bottom: 3rem;
-  font-size: 5rem;
-  font-weight: 700;
-  color: rgb(212, 175, 55);
-  text-decoration: none;
-  border-bottom: 3px solid rgb(212, 175, 55);
-}
-
-.info_image_content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-.info_image_content .info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-right: 2rem;
-  width: 40vw;
-}
-.info_image_content .info h2 {
-  font-family: "Bilbo Swash Caps", "Montserrat", "Poppins", sans-serif;
-  font-weight: bold;
-  color: transparent;
-  -webkit-text-stroke: 0.1rem rgb(55, 20, 1);
-  font-size: 6vw;
-}
-.info_image_content .image {
-  max-width: 40vw;
-}
-.info_image_content .image img {
-  max-width: 100%;
-}
-
-.info_image_content_two {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-.info_image_content_two .image {
-  max-width: 40vw;
-}
-.info_image_content_two .image img {
-  max-width: 100%;
-}
-.info_image_content_two .info {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  padding-left: 2rem;
-  width: 40vw;
-  height: 20vh;
-}
-.info_image_content_two .info h2 {
-  font-family: "Bilbo Swash Caps", "Montserrat", "Poppins", sans-serif;
-  font-weight: bold;
-  color: transparent;
-  -webkit-text-stroke: 0.1rem rgb(55, 20, 1);
-  font-size: 6vw;
 }
 
 .home_luxury {
@@ -445,9 +508,9 @@ textarea {
   background: rgba(17, 17, 17, 0.7);
   opacity: 0.7;
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   font-weight: 500;
-  padding: 3rem 2rem;
+  padding: 1rem 2rem;
 }
 .copyrights p {
   color: white;
@@ -515,5 +578,8 @@ textarea {
 @media (max-width: 450.98px) {
   html {
     font-size: 40%;
+  }
+  .about .content h3 {
+    font-size: 3.5rem;
   }
 }/*# sourceMappingURL=style.css.map */
