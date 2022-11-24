@@ -12,6 +12,8 @@
   text-decoration: none;
   transition: all 0.2s linear;
 }
+
+// Variables 
 $fonts-logo: 'Montserrat', 'Poppins', sans-serif;
 $blue: rgb(1, 1, 84);
 $brown: rgb(55, 20, 1);
@@ -21,6 +23,8 @@ $gold-color: rgb(212, 175, 55);
 $bg-color: rgb(255, 255, 254);
 $black-bg: rgba(17, 17, 17, 0.7);
 
+
+// Mixin
 @mixin grid($val) {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
