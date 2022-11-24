@@ -61,22 +61,34 @@
         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
         
         <label for="party"></label>
-        <input id="party" type="datetime-local" name="partydate" value="2017-06-01T08:30"/>
+        <input id="party" type="datetime-local" name="partydate" value="2022-01-01T08:30"/>
 
         <label for="question"></label>
         <select id="question" name="question">
           <option value="Question1" disabled hidden selected>What can we assis you with?</option>
-          <option value="Question2">I want to cancel my trip</option>
-          <option value="Question3">I had flight delays</option>
-          <option value="Question4">I didn't get the right room</option>
-          <option value="Question5">I got sick during the trip</option>
-          <option value="Question6">I was charged to much on the booking</option>
-          <option value="Question7">Other</option>
+          <option value="Question2">I want to book a trip</option>
+          <option value="Question3">I want to cancel my trip</option>
+          <option value="Question4">I had flight delays</option>
+          <option value="Question5">I didn't get the right room</option>
+          <option value="Question6">I got sick during the trip</option>
+          <option value="Question7">I was charged to much on the booking</option>
+          <option value="Question8">Other</option>
+        </select>
+
+        <label for="country"></label>
+        <select id="country" name="country">
+          <option value="country1" disabled hidden selected>Where do you want to go?</option>
+          <option value="country2">Mykonos - Greece, Europe</option>
+          <option value="country3">Phuket - Thailand, Asia</option>
+          <option value="country5">Zanzibar - Tanzania, Africa</option>
+          <option value="country6">Bora Bora - French polynesia - Sount Pacific</option>
+          <option value="country4">Maldives, Indian ocean</option>
+          <option value="country7">Jamaica, Caribbean</option>
         </select>
 
       
         <label for="subject"></label>
-        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+        <textarea id="subject" name="subject" placeholder="Anything else you want to add?"></textarea>
       
 
         <input class="btn" type="submit" value="Submit">
