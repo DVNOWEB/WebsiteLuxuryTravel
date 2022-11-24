@@ -242,6 +242,12 @@ section {
   border-bottom: 2px solid rgb(212, 175, 55);
 }
 
+.border_two {
+  padding-top: 5rem;
+  margin: 0 40vw 3rem;
+  border-bottom: 2px solid rgb(212, 175, 55);
+}
+
 .heading {
   text-align: center;
   margin-bottom: 2rem;
@@ -286,6 +292,17 @@ section {
 .destination .box-container .box .content h3 {
   font-size: 2rem;
   color: rgb(55, 20, 1);
+}
+.destination .box-container .box .content p {
+  padding-bottom: 1rem;
+}
+.destination .box-container .box .content a {
+  color: rgb(55, 20, 1);
+  font-weight: 700;
+  text-decoration: overline;
+}
+.destination .box-container .box .content a:hover {
+  color: rgb(212, 175, 55);
 }
 
 .about {
@@ -335,6 +352,11 @@ section {
 .about .content a.btn:hover {
   color: rgb(55, 20, 1);
   border: 2px solid white;
+}
+.about .content .price {
+  margin-left: 2rem;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .home_about {
