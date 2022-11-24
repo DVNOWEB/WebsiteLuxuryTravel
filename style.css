@@ -149,12 +149,23 @@ p {
   color: white;
   line-break: 3rem;
 }
-.home .content #party {
+.home .content #email {
+  display: block;
   font-size: 1.5rem;
   font-weight: 600;
   opacity: 0.5;
   border-radius: 5px;
-  padding: 0.5rem 1rem;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1.5rem;
+  width: 33vw;
+}
+.home .content #party {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  opacity: 0.5;
+  border-radius: 5px;
+  padding: 0.9rem 1rem;
   width: 33vw;
 }
 .home .content .p1 {
@@ -246,6 +257,33 @@ section {
   padding-top: 5rem;
   margin: 0 40vw 3rem;
   border-bottom: 2px solid rgb(212, 175, 55);
+}
+
+.border_three {
+  padding: 0;
+  margin: 0 40vw 3rem;
+  border-bottom: 2px solid rgb(212, 175, 55);
+}
+
+.w3-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.w3-content .mySlider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.w3-content .w3-animate-fading {
+  display: flex;
+  align-self: center;
+  width: 40vw;
+}
+.w3-content span {
+  font-weight: bold;
 }
 
 .heading {
@@ -632,6 +670,26 @@ textarea {
   .about .content p {
     font-size: 1.8rem;
   }
+  .w3-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .w3-content .mySlider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .w3-content .w3-animate-fading {
+    display: flex;
+    align-self: center;
+    width: 45vw;
+  }
+  .w3-content span {
+    font-weight: bold;
+  }
 }
 @media (max-width: 992.98px) {
   html {
@@ -656,6 +714,26 @@ textarea {
   }
   .about .content p {
     font-size: 1.7rem;
+  }
+  .w3-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .w3-content .mySlider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .w3-content .w3-animate-fading {
+    display: flex;
+    align-self: center;
+    width: 50vw;
+  }
+  .w3-content span {
+    font-weight: bold;
   }
 }
 @media (max-width: 767.98px) {
@@ -692,14 +770,34 @@ textarea {
     background: rgba(0, 0, 0, 0.4);
     padding: 0 30px;
   }
-  .home {
+  .header .home {
     min-height: 70vh;
   }
-  .about .content h3 {
+  .header .about .content h3 {
     font-size: 3.5rem;
   }
-  .about .content p {
+  .header .about .content p {
     font-size: 1.7rem;
+  }
+  .w3-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .w3-content .mySlider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .w3-content .w3-animate-fading {
+    display: flex;
+    align-self: center;
+    width: 80vw;
+  }
+  .w3-content span {
+    font-weight: bold;
   }
 }
 @media (max-width: 575.98px) {
@@ -714,6 +812,26 @@ textarea {
   }
   .about .content p {
     font-size: 2rem;
+  }
+  .w3-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .w3-content .mySlider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .w3-content .w3-animate-fading {
+    display: flex;
+    align-self: center;
+    width: 80vw;
+  }
+  .w3-content span {
+    font-weight: bold;
   }
 }
 @media (max-width: 450.98px) {
@@ -733,6 +851,26 @@ textarea {
   }
   .about .content p {
     font-size: 2.3rem;
+  }
+  .w3-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .w3-content .mySlider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .w3-content .w3-animate-fading {
+    display: flex;
+    align-self: center;
+    width: 80vw;
+  }
+  .w3-content span {
+    font-weight: bold;
   }
 }
 @media (max-width: 310.98px) {

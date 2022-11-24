@@ -185,12 +185,23 @@ p {
       line-break: 3rem;
     }
 
-    #party {
+    #email {
+      display: block;
       font-size: 1.5rem;
       font-weight: 600;
       opacity: 0.5;
       border-radius: 5px;
-      padding: 0.5rem 1rem;
+      padding: 0.9rem 1rem;
+      margin-bottom: 1.5rem;
+      width: 33vw;
+    }
+    #party {
+      display: block;
+      font-size: 1.5rem;
+      font-weight: 600;
+      opacity: 0.5;
+      border-radius: 5px;
+      padding: 0.9rem 1rem;
       width: 33vw;
     }
 
@@ -287,17 +298,46 @@ section {
   font-weight: 400;
 }
 
+//// Borders
 .border {
   margin: 0 30vw 3rem;
   border-bottom: 2px solid $gold-color;
 }
 
-.border_two{
+.border_two {
   padding-top: 5rem;
   margin: 0 40vw 3rem;
   border-bottom: 2px solid $gold-color;
 }
 
+.border_three {
+  padding: 0;
+  margin: 0 40vw 3rem;
+  border-bottom: 2px solid $gold-color;
+}
+
+//// Slider comments
+.w3-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .mySlider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .w3-animate-fading {
+    display: flex;
+    align-self: center;
+    width: 40vw;
+  }
+  span {
+    font-weight: bold;
+  }
+}
 ////// Destinations //////
 .heading {
   text-align: center;
@@ -347,7 +387,7 @@ section {
         font-size: 2rem;
         color: $brown;
       }
-      p{
+      p {
         padding-bottom: 1rem;
       }
       a {
@@ -734,6 +774,28 @@ textarea {
       }
     }
   }
+
+  .w3-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .mySlider {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .w3-animate-fading {
+      display: flex;
+      align-self: center;
+      width: 45vw;
+    }
+    span {
+      font-weight: bold;
+    }
+  }
 }
 
 @media (max-width: 992.98px) {
@@ -768,6 +830,27 @@ textarea {
       p {
         font-size: 1.7rem;
       }
+    }
+  }
+  .w3-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .mySlider {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .w3-animate-fading {
+      display: flex;
+      align-self: center;
+      width: 50vw;
+    }
+    span {
+      font-weight: bold;
     }
   }
 }
@@ -808,20 +891,42 @@ textarea {
         }
       }
     }
-  }
 
-  .home {
-    min-height: 70vh;
-  }
-  .about {
-    .content {
-      h3 {
-        font-size: 3.5rem;
-      }
+    .home {
+      min-height: 70vh;
+    }
+    .about {
+      .content {
+        h3 {
+          font-size: 3.5rem;
+        }
 
-      p {
-        font-size: 1.7rem;
+        p {
+          font-size: 1.7rem;
+        }
       }
+    }
+
+  }
+  .w3-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .mySlider {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .w3-animate-fading {
+      display: flex;
+      align-self: center;
+      width: 80vw;
+    }
+    span {
+      font-weight: bold;
     }
   }
 }
@@ -842,6 +947,28 @@ textarea {
       p {
         font-size: 2rem;
       }
+    }
+  }
+
+  .w3-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .mySlider {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .w3-animate-fading {
+      display: flex;
+      align-self: center;
+      width: 80vw;
+    }
+    span {
+      font-weight: bold;
     }
   }
 }
@@ -865,6 +992,28 @@ textarea {
       p {
         font-size: 2.3rem;
       }
+    }
+  }
+
+  .w3-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .mySlider {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .w3-animate-fading {
+      display: flex;
+      align-self: center;
+      width: 80vw;
+    }
+    span {
+      font-weight: bold;
     }
   }
 }
