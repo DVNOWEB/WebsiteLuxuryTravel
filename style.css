@@ -336,6 +336,11 @@ section {
   color: rgb(55, 20, 1);
   border: 2px solid white;
 }
+.about .content .price {
+  margin-left: 2rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
 
 .home_about {
   background: url(/images/p3.webp) no-repeat;
