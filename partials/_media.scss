@@ -1,4 +1,11 @@
+// Mixin
+@mixin grid($val) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+  gap: 1.5rem;
+}
 // Mobil first small
+
 @media (max-width: 310.98px) {
   .destination .box-container {
     @include grid(33rem);

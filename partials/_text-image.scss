@@ -1,0 +1,87 @@
+// About Info and Image
+.about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 5rem;
+
+    .img-container {
+        flex: 1 1 42rem;
+
+        .image {
+            border-radius: 1rem;
+            width: 100%;
+        }
+    }
+
+    .content {
+        flex: 1 1 42rem;
+        margin-bottom: 5rem;
+
+        span {
+            color: $gold-color;
+            font-size: 2rem;
+        }
+
+        h2 {
+            color: $brown;
+            font-size: 4rem;
+            margin-top: 0.5rem;
+        }
+
+        p {
+            padding: 1rem 0;
+            margin-bottom: 1.5rem;
+            color: $brown;
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+
+        a.btn {
+            font-size: 1.5rem;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            background-color: rgba(0, 0, 0, 0.1);
+            border: 2px solid $gold-color;
+            cursor: pointer;
+            color: $gold-color;
+
+            &:hover {
+                color: $brown;
+                border: 2px solid white;
+            }
+        }
+
+        .price {
+            margin-left: 2rem;
+            font-weight: 600;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
+// GALLERY
+
+.gallery .box-container {
+    columns: 3 25rem;
+    column-gap: 1.5rem;
+
+    .box-gallery {
+        margin-bottom: 1rem;
+        break-inside: avoid;
+
+        img {
+            width: 100%;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
