@@ -62,6 +62,31 @@
     }
 }
 
+.content-border-right{
+    border-top: 5px solid rgb(212, 175, 55);
+    border-right: 5px solid rgb(212, 175, 55);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.content-border-left{
+    border-top: 5px solid rgb(212, 175, 55);
+    border-left: 5px solid rgb(212, 175, 55);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.content-border-bottom-left{
+    border-left: 5px solid rgb(212, 175, 55);
+    border-bottom: 5px solid rgb(212, 175, 55);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.content-border-bottom-right{
+    border-right: 5px solid rgb(212, 175, 55);
+    border-bottom: 5px solid rgb(212, 175, 55);
+    padding: 2rem;
+    border-radius: 2rem;
+}
 
 
 // GALLERY

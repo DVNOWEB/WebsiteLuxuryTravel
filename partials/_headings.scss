@@ -141,3 +141,19 @@
     align-items: center;
     justify-content: center;
 }
+
+
+//Contact form 
+input[type='text'],
+select,
+textarea {
+    display: flex;
+    color: $brown;
+    font-weight: 900;
+    opacity: 0.6;
+    width: 33vw;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
