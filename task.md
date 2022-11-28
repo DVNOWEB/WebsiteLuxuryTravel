@@ -21,8 +21,8 @@ Produkt(er), Referenser och Kontakt. -->
 Startsida
 <!-- ● Det ska tydligt framgå vilka företaget är, och vad de säljer för produkt/tjänst. -->
 
-● Det ska även finnas en CTA (Call-to-action - kan vara en knapp, en bildlänk etc) som
-tar användaren till produktsidan.
+<!-- ● Det ska även finnas en CTA (Call-to-action - kan vara en knapp, en bildlänk etc) som
+tar användaren till produktsidan. -->
 
 Om oss
 ● Historik om företaget.
@@ -33,10 +33,10 @@ Om oss
 företagsmail samt en kort beskrivning om personen (minst 6 anställda).
 
 Produktsida
-● Sida som innehåller all information kring de produkter/tjänster företaget erbjuder.
+<!-- ● Sida som innehåller all information kring de produkter/tjänster företaget erbjuder. -->
 
-<!-- ● Det ska erbjudas antingen flera olika produkter tjänster, om det är en produkt/tjänst
-ska den finnas i olika varianter med olika prisklasser. -->
+<!-- ● Det ska erbjudas antingen flera olika produkter tjänster, om det är en produkt/tjänst -->
+ska den finnas i olika varianter med olika prisklasser.
 
 <!-- ● Knappar för att köpa/beställa produkten/tjänsten (funktionalitet krävs ej). -->
 
