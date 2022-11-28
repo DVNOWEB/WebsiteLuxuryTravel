@@ -5,17 +5,13 @@
     justify-content: center;
     align-items: center;
 
-    .mySlider {
+    .mySlides {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .w3-animate-fading {
-        display: flex;
-        align-self: center;
         width: 40vw;
+        .mySlider {
+            display:flex;
+            justify-content: center;
+        }
     }
 
     span {

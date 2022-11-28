@@ -29,26 +29,26 @@ Om oss
 
 ● Ska innehålla ett företagsmotto/catchphrase. LLL - Live Life Luxury
 
-<!-- ● Anställda på företaget - För varje anställd ska det finnas bild, roll i företaget, -->
-företagsmail samt en kort beskrivning om personen (minst 6 anställda).
+<!-- ● Anställda på företaget - För varje anställd ska det finnas bild, roll i företaget,
+företagsmail samt en kort beskrivning om personen (minst 6 anställda). -->
 
 Produktsida
 <!-- ● Sida som innehåller all information kring de produkter/tjänster företaget erbjuder. -->
 
-<!-- ● Det ska erbjudas antingen flera olika produkter tjänster, om det är en produkt/tjänst -->
-ska den finnas i olika varianter med olika prisklasser.
+<!-- ● Det ska erbjudas antingen flera olika produkter tjänster, om det är en produkt/tjänst
+ska den finnas i olika varianter med olika prisklasser. -->
 
 <!-- ● Knappar för att köpa/beställa produkten/tjänsten (funktionalitet krävs ej). -->
 
-Referenser
+<!-- Referenser
 ● Ska innehålla kundrecensioner av produkt eller tjänster. Dessa recensioner ska
 innehålla en kort kommentar samt betyg (valfri betygsskala). Recensionerna kan
 vara skrivna av företag och/eller privatpersoner beroende på vad för typ av
-produkt/tjänst företaget säljer.
+produkt/tjänst företaget säljer. -->
 
 Kontakt
-<!-- ● Ska innehålla adress och telefonnummer till företaget -->+ bild på byggnad som
-företaget har sitt kontor.
+<!-- ● Ska innehålla adress och telefonnummer till företaget + bild på byggnad som
+företaget har sitt kontor. -->
 
 <!-- ● Skapa ett formulär för att kontakta företaget. I formuläret ska användaren skriva:
 ○ Email
