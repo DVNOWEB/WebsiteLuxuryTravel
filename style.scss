@@ -36,6 +36,17 @@ body {
   background: $bg-color;
   overflow-x: hidden;
 }
+// super large media
+@media (max-width: 1700.98px){
+  .home {
+    min-height: 80vh;
+
+    .content-contact {
+      margin-top: 7rem;
+    }
+  }
+}
+
 
 // Extra large desktop
 @media (max-width: 1371.98px) {

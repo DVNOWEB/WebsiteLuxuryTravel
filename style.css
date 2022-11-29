@@ -657,6 +657,14 @@ body {
   overflow-x: hidden;
 }
 
+@media (max-width: 1700.98px) {
+  .home {
+    min-height: 80vh;
+  }
+  .home .content-contact {
+    margin-top: 7rem;
+  }
+}
 @media (max-width: 1371.98px) {
   .destination .box-container {
     display: grid;
