@@ -357,6 +357,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(147, 146, 146, 0.1));
   border-radius: 5rem;
   padding: 3rem 8rem;
+  margin-top: 8rem;
 }
 @media (min-width: 297.98px) and (max-width: 437px) {
   .home .content {
