@@ -465,7 +465,7 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  min-height: 70vh;
+  min-height: 80vh;
   align-items: center;
   justify-content: center;
 }
@@ -672,6 +672,9 @@ body {
   .home {
     min-height: 80vh;
   }
+  .home .content-contact {
+    margin-top: 7rem;
+  }
   .about .content h3 {
     font-size: 3.5rem;
   }
@@ -693,6 +696,9 @@ body {
   }
   .home {
     min-height: 75vh;
+  }
+  .home .content-contact {
+    margin-top: 6rem;
   }
   .about .content h3 {
     font-size: 3.5rem;
@@ -743,6 +749,9 @@ body {
   }
   .home {
     min-height: 80vh;
+  }
+  .home .content-contact {
+    margin-top: 10rem;
   }
   .about .content h3 {
     font-size: 3.5rem;
