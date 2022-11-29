@@ -358,12 +358,22 @@
   border-radius: 5rem;
   padding: 3rem 8rem;
 }
+@media (min-width: 297.98px) and (max-width: 437px) {
+  .home .content {
+    padding: 3rem 0rem;
+  }
+}
 .home .content .logo {
   padding: 0.2rem;
   font-size: 5rem;
   font-weight: 700;
   color: rgb(212, 175, 55);
   text-decoration: none;
+}
+@media (min-width: 297.98px) and (max-width: 625px) {
+  .home .content .logo {
+    font-size: 3rem;
+  }
 }
 .home .content .headerlogo {
   font-family: "Montserrat", "Poppins", sans-serif;
@@ -372,12 +382,12 @@
   font-weight: bold;
   color: transparent;
   -webkit-text-stroke: 0.1rem white;
-  font-size: 2.2vw;
+  font-size: 4vw;
   display: block;
 }
 .home .content .s1 {
   font-family: "Bilbo Swash Caps", "Montserrat", "Poppins", sans-serif;
-  font-size: 6vw;
+  font-size: 8vw;
   color: white;
   line-break: 3rem;
 }
