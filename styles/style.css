@@ -147,12 +147,12 @@
   font-size: 2rem;
   color: rgb(212, 175, 55);
   margin-bottom: 1rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
 }
 .footer .box-container .box .btn-subscribe {
   font-size: 2rem;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
+  font-weight: 400;
+  padding: 0.5rem 2rem;
   border-radius: 1rem;
   background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid rgb(212, 175, 55);
@@ -284,6 +284,12 @@
   width: 100%;
   height: auto;
 }
+@media (min-width: 297.98px) and (max-width: 767.98px) {
+  .owl-stage-outer .owl-stage img {
+    width: auto;
+    height: auto;
+  }
+}
 
 .heading {
   text-align: center;
@@ -356,12 +362,12 @@
   text-align: center;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(147, 146, 146, 0.1));
   border-radius: 5rem;
-  padding: 3rem 8vw;
+  padding: 3rem 8rem;
   margin-top: 8rem;
 }
 @media (min-width: 297.98px) and (max-width: 767.98px) {
   .home .content {
-    padding: 3rem 8rem;
+    padding: 3rem 1rem;
   }
   .home .content .form #email-s {
     display: block;
@@ -422,7 +428,7 @@
   font-family: "Bilbo Swash Caps", "Montserrat", "Poppins", sans-serif;
   font-size: 6vw;
   color: white;
-  line-break: 3rem;
+  line-break: normal;
 }
 .home .content #email {
   display: block;
@@ -471,6 +477,15 @@
   align-items: center;
   justify-content: center;
 }
+@media (min-width: 297.98px) and (max-width: 767.98px) {
+  .home_about {
+    padding: 3rem 1rem;
+  }
+  .home_about .s1 {
+    font-size: 5vw;
+    margin: 3rem;
+  }
+}
 
 .home_luxury {
   background: url(/images/p1.jpeg) no-repeat;
@@ -480,6 +495,11 @@
   min-height: 80vh;
   align-items: center;
   justify-content: center;
+}
+@media (min-width: 297.98px) and (max-width: 767.98px) {
+  .home_luxury {
+    padding: 3rem 10rem;
+  }
 }
 
 .home_gallery {
