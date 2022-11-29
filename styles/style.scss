@@ -513,8 +513,6 @@ body {
     }
   }
 }
-
-// @media (min-width: 297.98px) and (max-width: 1177.98px) {
 @media (min-width: 297.98px) and (max-width: 992.98px) {
   .destination .box-container {
     @include grid(33rem);
@@ -561,7 +559,6 @@ body {
 
     .home {
       min-height: 50vh;
-
       .content {
         #email-s {
           display: block;
