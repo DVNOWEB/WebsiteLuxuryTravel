@@ -465,7 +465,7 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  min-height: 80vh;
+  min-height: 70vh;
   align-items: center;
   justify-content: center;
 }
