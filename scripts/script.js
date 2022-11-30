@@ -14,7 +14,7 @@ document.querySelectorAll('.about .video-container .controls .control-btn').forE
   }
 })
 
-// OWL CAROUSEL AUTOPLAY
+// OWL carousel autoplay for partners 
 let owl = $('.owl-carousel');
 owl.owlCarousel({
     items:6, 
@@ -26,7 +26,7 @@ owl.owlCarousel({
     autoplayHoverPause:true
 });
 
-// Slider comments
+// Slider comments in reference
 let myIndex = 0;
 carousel();
 
