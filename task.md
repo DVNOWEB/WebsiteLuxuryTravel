@@ -103,10 +103,10 @@ funktionalitet. -->
 
 ● Sidan ska vara tillgänglighetsanpassad enligt följande kriterier:
 
-○ Alla HTML-dokument ska valideras utan några fel (varningar är OK) på
-https://validator.w3.org.
+<!-- ○ Alla HTML-dokument ska valideras utan några fel (varningar är OK) på
+https://validator.w3.org. -->
 
-○ HTML använder sig utav semantiska taggar.
+<!-- ○ HTML använder sig utav semantiska taggar. -->
 
 ○ Tydliga färgkontraster mellan text och bakgrunder (se WCAG 2.1-krav).
 Senast inlämning 1 december kl 23.59. Inlämningen sker på följande vis i Omniway:
