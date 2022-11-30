@@ -16,7 +16,16 @@
                 padding-bottom: 1rem;
                 color: $gold-color;
             }
-
+            @media (min-width: 297.98px) and (max-width: 1046.98px) {
+                .logo {
+                        font-size: 2.3rem;
+                        font-weight: 600;
+                        padding-top: 1rem;
+                        padding-bottom: 1rem;
+                        color: $gold-color;
+                }
+            }
+            
             h3 {
                 font-size: 2.2rem;
                 color: $gold-color;

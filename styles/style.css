@@ -91,6 +91,15 @@
   padding-bottom: 1rem;
   color: rgb(212, 175, 55);
 }
+@media (min-width: 297.98px) and (max-width: 1046.98px) {
+  .footer .box-container .box .logo {
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(212, 175, 55);
+  }
+}
 .footer .box-container .box h3 {
   font-size: 2.2rem;
   color: rgb(212, 175, 55);
