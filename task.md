@@ -25,9 +25,9 @@ Startsida
 tar användaren till produktsidan. -->
 
 Om oss
-● Historik om företaget.
+<!-- ● Historik om företaget. -->
 
-● Ska innehålla ett företagsmotto/catchphrase. LLL - Live Life Luxury
+<!-- ● Ska innehålla ett företagsmotto/catchphrase. LLL - Live Life Luxury -->
 
 <!-- ● Anställda på företaget - För varje anställd ska det finnas bild, roll i företaget,
 företagsmail samt en kort beskrivning om personen (minst 6 anställda). -->
@@ -91,12 +91,12 @@ ________________________________________________________________________________
 
 
 Kriterier för G
-● Samtliga krav ovan är uppfyllda
-● Sidan fungerar på vanlig desktop.
+<!-- ● Samtliga krav ovan är uppfyllda
+● Sidan fungerar på vanlig desktop. -->
 
 Kriterier för VG
-● Sidor ska vara fullt responsiva & det ska finnas wireframe/mockup för mobil &
-desktop. Koden ska skrivas mobile-first.
+<!-- ● Sidor ska vara fullt responsiva & det ska finnas wireframe/mockup för mobil &
+desktop. Koden ska skrivas mobile-first. -->
 
 <!-- ● Ni använder er utav en preprocessor (t.ex SASS, LESS) samt använder dess
 funktionalitet. -->
